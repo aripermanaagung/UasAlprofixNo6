@@ -1,0 +1,16 @@
+package uasfix2022;
+
+public class Pattern3 {
+	public static void main(String[] args) {
+		int x, y,z;
+		for (x=1;x <=5 ; x++) {
+			for (y=5; y>x; y--) {
+				System.out.print(" ");
+			}
+			for (z=1;z<(2*x) ; z++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
