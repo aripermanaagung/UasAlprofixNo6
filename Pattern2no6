@@ -1,0 +1,16 @@
+package uasfix2022;
+
+public class Pattern2 {
+	public static void main(String[] args) {
+		int x, y,z;
+		for (x=5;x>=1;x--) {
+			//untuk mencetak spasi//
+			for (y=5;y>x ; y--) {
+			}
+			for (z=1; z<=y; z++) {
+				System.out.print("* ");
+			}
+			System.out.println(); // mencetak baris baru
+		}
+	}
+}
